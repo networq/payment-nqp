@@ -1,0 +1,11 @@
+name: budget
+labelPlural: Budget
+labelSingular: Budgets
+
+fields:
+  price:
+    type: string
+  type:
+    type: string # fixed or hourly
+  currency:
+    type: string # USD, EUR, etc

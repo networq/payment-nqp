@@ -1,0 +1,11 @@
+name: rate
+labelPlural: Rate
+labelSingular: Rates
+
+fields:
+  price:
+    type: string
+  type:
+    type: string # hourly, daily
+  currency:
+    type: string # USD, EUR, etc

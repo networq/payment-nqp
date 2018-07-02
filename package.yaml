@@ -1,0 +1,17 @@
+name: networq:payment
+description: Payment types
+license: MIT
+
+dependencies:
+  networq:core: latest
+
+widgets:
+  budgetProperties:
+    type: networq:payment:budget
+    hook: properties
+    label: Budget properties
+
+  rateProperties:
+    type: networq:payment:rate
+    hook: properties
+    label: Rate properties
